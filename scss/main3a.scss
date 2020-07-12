@@ -1,0 +1,71 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js");
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+
+//variables
+$bg-color: #f0f0f0;
+$border-color: #ccc;
+$text-color: #fff;
+
+.box{
+    width: 180px;
+    height: 80px;
+    text-align: center;
+    border:1px solid $border-color;
+    margin: 15px;
+    //
+    float: left;
+}
+.box1 {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid $border-color;
+    margin: 15px;
+    background-color:$bg-color ;
+}
+// flex
+main {
+    display: flex;
+    //flex direction
+    // flex-direction: column;
+    //flex-direction: column-reverse;
+    //flex-direction: row-reverse;
+
+    //wrap: when page is made smaller or bigger, content adjusts to page size
+    //flex-wrap: wrap;
+
+    //justify-content
+    //justify-content: center;
+    //justify-content: space-around; (even space around items)
+    justify-content: space-between; // (even space between items)
+    //specify height and align-items: center; to scenter content vertically on page
+    height: 80vh;
+    align-items: center;
+}
+.four{
+//flex-grow: 0;
+//flex-shrink: 0;
+//flex-basis: 200px;
+/* flex shorthand- flex: flex-grow, flex-shrink, flex-basis */
+//flex: 0 0 200px;
+}
+.five{
+//flex-grow: 1;
+//flex-shrink: 1;
+//flex-basis: 300px;
+//flex: 1 1 300px;
+}
+.six{
+//flex-grow: 2;
+//flex-shrink: 2;
+//flex-basis: 400px; /* flex-basis is the same as minimum width */
+//flex: 2 2 400px;
+}
+.seven{
+//flex-grow: 3;
+//flex-shrink: 3;
+//flex-basis: 500px;
+}

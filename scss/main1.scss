@@ -1,0 +1,19 @@
+/* Style for CS 202
+* version:1.0
+* last modified: 6.29.2020
+* author: Otto Schmidt
+* email: schmido@wwu.edu
+* website: lesson 3
+ */
+ @import "../node_modules/bootstrap/scss/bootstrap.scss";
+ /* https://cdnjs.com/libraries/font-awesome */
+ @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js");
+
+ // style rule
+ /* selector {declaration;} */
+ /* selector {property:value;} */
+ //css variables
+ body{
+     /* important rule */
+     background-color: lightblue;
+ }
